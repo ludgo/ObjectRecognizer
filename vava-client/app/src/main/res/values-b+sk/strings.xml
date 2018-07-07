@@ -1,0 +1,20 @@
+<resources>
+    <string name="noun_settings">Nastavenia</string>
+    <string name="noun_login">Prihlásenie</string>
+
+    <string name="action_login">Prihlásiť sa</string>
+
+    <string name="title_activity_result">Výsledky vyhľadávania</string>
+
+    <string name="pref_server_url_title">Základná adresa server API</string>
+    <string name="pref_server_url_dialog_message">Formát: http:/ipAdresa:port</string>
+
+    <string name="button_drop_image">Pridať obrázok</string>
+    <string name="edit_text_search_images">Tu zadajte hľadanú frázu</string>
+
+    <string name="error_cancelled">Zrušené</string>
+    <string name="error_no_network">Žiadna sieť</string>
+    <string name="error_unknown">Chyba</string>
+    <string name="error_login_failed">Prihlasovanie zlyhalo</string>
+
+</resources>

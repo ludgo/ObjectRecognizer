@@ -1,0 +1,20 @@
+<resources>
+    <string name="noun_settings">Ajustes</string>
+    <string name="noun_login">Inicio de sesión</string>
+
+    <string name="action_login">Iniciar sesión</string>
+
+    <string name="title_activity_result">Resultados de la búsqueda</string>
+
+    <string name="pref_server_url_title">URL base de API del servidor</string>
+    <string name="pref_server_url_dialog_message">Formato: http:/direccionIp:porta</string>
+
+    <string name="button_drop_image">Añadir imagen</string>
+    <string name="edit_text_search_images">Escriba la frase de búsqueda aquí</string>
+
+    <string name="error_cancelled">Cancelado</string>
+    <string name="error_no_network">Sin red</string>
+    <string name="error_unknown">Error</string>
+    <string name="error_login_failed">Error de inicio de sesión</string>
+
+</resources>

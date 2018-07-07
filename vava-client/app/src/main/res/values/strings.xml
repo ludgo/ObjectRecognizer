@@ -1,0 +1,27 @@
+<resources>
+    <string name="noun_settings">Settings</string>
+    <string name="noun_login">Login</string>
+
+    <string name="action_settings">@string/noun_settings</string>
+    <string name="action_login">Login</string>
+
+    <string name="app_name">VavaClient</string>
+    <string name="title_activity_main">@string/app_name</string>
+    <string name="title_activity_result">Search results</string>
+    <string name="title_activity_settings">@string/noun_settings</string>
+    <string name="title_activity_login">@string/app_name</string>
+
+    <string name="pref_server_url_key">pref_server_url_key</string>
+    <string name="pref_server_url_title">Server API base URL</string>
+    <string name="pref_server_url_dialog_message">Format: http:/ipAddress:port</string>
+
+    <string name="button_login">@string/action_login</string>
+    <string name="button_drop_image">Add image</string>
+    <string name="edit_text_search_images">Type search phrase here</string>
+
+    <string name="error_cancelled">Cancelled</string>
+    <string name="error_no_network">No network</string>
+    <string name="error_unknown">Error</string>
+    <string name="error_login_failed">Login failed</string>
+
+</resources>

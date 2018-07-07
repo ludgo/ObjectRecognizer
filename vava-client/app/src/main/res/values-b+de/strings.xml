@@ -1,0 +1,20 @@
+<resources>
+    <string name="noun_settings">Einstellungen</string>
+    <string name="noun_login">Anmeldung</string>
+
+    <string name="action_login">Anmelden</string>
+
+    <string name="title_activity_result">Suchergebnisse</string>
+
+    <string name="pref_server_url_title">Server-API-URL-Basis</string>
+    <string name="pref_server_url_dialog_message">Format: http:/IPAdresse:Port</string>
+
+    <string name="button_drop_image">Bild hinzufügen</string>
+    <string name="edit_text_search_images">Geben Sie hier Suchbegriff ein</string>
+
+    <string name="error_cancelled">Abgebrochen</string>
+    <string name="error_no_network">Kein Netzwerk</string>
+    <string name="error_unknown">Fehler</string>
+    <string name="error_login_failed">Anmeldung fehlgeschlagen</string>
+
+</resources>
