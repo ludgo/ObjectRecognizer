@@ -1,0 +1,41 @@
+buildscript {
+	ext {
+		springBootVersion = '1.5.1.RELEASE'
+	}
+	repositories {
+		mavenCentral()
+	}
+	dependencies {
+		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+	}
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'org.springframework.boot'
+
+sourceCompatibility = '1.8'
+
+jar {
+	baseName = 'vava'
+	version = '0.0.1-SNAPSHOT'
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile 'org.springframework.boot:spring-boot-starter-data-jpa'
+	compile 'org.springframework.boot:spring-boot-starter-web'
+
+	runtime 'org.postgresql:postgresql'
+
+	compile 'com.clarifai.clarifai-api2:core:2.2.0'
+
+	compile 'com.google.code.gson:gson:2.8.0'
+
+	compile 'com.google.firebase:firebase-admin:4.1.2'
+
+	compileOnly "org.projectlombok:lombok:1.16.14"
+}
